@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Updock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Updock&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.525);
+  display: flex;
+  padding: 7px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0;
+}
+
+#logo {
+  margin-left: 20px;
+}
+#logo h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+#logo span {
+  color: aqua;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+}
+
+#wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+#wrapper a i,
+span {
+  transition: all 0.2s;
+}
+#wrapper i:hover,
+a:hover span {
+  color: rgb(141, 234, 255);
+}
+
+#wrapper .search1 button {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+#wrapper .search1 button:hover {
+  background-color: rgb(186, 255, 255);
+}
+
+#login {
+  position: relative;
+}
+.system {
+  margin-right: 0px;
+}
+
+.search {
+  position: relative;
+}
+.search1 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.534);
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 40px;
+}
+.search1 i {
+  font-size: 35px;
+  color: rgb(255, 252, 252);
+}
+.search1 input {
+  margin: 0 3px 0 10px;
+  position: relative;
+}
+
+.search1 button,
+input {
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 5px 5px;
+  border: none;
+}
+#login button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+#home a,
+#login i {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-decoration: none;
+}
+#home a i span {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+#home span {
+  margin-right: 40px;
+}
+
+#login {
+  display: flex;
+}
+#login i {
+  font-size: 45px;
+  margin: 0 5px;
+}
+
+.hot1 {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 30px 30px;
+}
+.hot1 i {
+  font-size: 45px;
+  color: rgb(247, 3, 3);
+  margin-right: 10px;
+}
+.hot2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 500px;
+  flex-wrap: wrap;
+}
+.hot3 {
+  height: 500px;
+}
+.hot2 .hot3 {
+  border: 2px solid black;
+  border-radius: 27px;
+  background: linear-gradient(rgb(110, 243, 255), rgb(255, 255, 255));
+  transition: all 0.3s;
+  position: relative;
+}
+.hot3:hover {
+  box-shadow: 0px 0px 15px;
+  transform: scale(1.02, 1.02);
+  background: linear-gradient(rgb(255, 255, 255), rgb(174, 248, 255));
+}
+.hot2 .hot3 img {
+  width: 350px;
+  height: 235px;
+  border-radius: 25px;
+}
+
+.hot3 a {
+  text-decoration: none;
+  color: black;
+}
+.hot3 a h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.hot3 a div {
+  display: flex;
+  justify-content: center;
+}
+.hot3 a div p {
+  background-color: rgb(255, 255, 255);
+  margin: 10px 5px 0 5px;
+  padding: 0 5px;
+  color: rgb(0, 0, 0);
+}
+.hot3 .cost p {
+  font-weight: 640;
+  font-size: 20px;
+  margin-left: 35px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.hot3 .cost p i {
+  font-size: 30px;
+  color: rgb(0, 116, 8);
+  margin-right: 5px;
+}
+
+#menu {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 15px;
+  margin-top: 130px;
+  padding-top: 40px;
+}
+#foot1,
+#foot2 {
+  margin: 0 40px;
+}
+#foot10,
+.foot211 {
+  display: flex;
+  align-items: center;
+}
+footer h4 {
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+  margin-right: 5px;
+}
+footer span {
+  font-family: "Caveat", cursive;
+  color: cyan;
+  font-size: 15px;
+}
+#foot20 a i {
+  font-size: 30px;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+#foot20 a:hover > i {
+  transform: scale(1.3, 1.3);
+  box-shadow: 0px 0px 7px;
+  border-radius: 10px;
+}
+#foot20 .fb {
+  color: rgb(0, 89, 255);
+}
+#foot20 .gm {
+  color: black;
+}
+#foot20 .ybt {
+  color: red;
+}
+
+@media (max-width: 1502px) {
+  footer {
+    margin-top: 600px;
+  }
+}
+@media (max-width: 1090px) {
+  #logo {
+    margin-left: 10px;
+  }
+  #logo h1 {
+    font-size: 35px;
+  }
+  #logo span {
+    font-size: 15px;
+  }
+  #wrapper {
+    margin: 0 10px;
+  }
+
+  .search1 {
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .search1 i {
+    font-size: 25px;
+  }
+  .search1 input {
+    margin: 0 3px;
+    padding: 3px 3px;
+    width: 100px;
+  }
+  .search1 button {
+    height: 30px;
+  }
+  .search1 button,
+  input {
+    font-size: 9px;
+    border-radius: 5px;
+    padding: 2px 2px;
+    border: none;
+  }
+
+  #wrapper .search1 {
+    display: flex;
+    align-items: center;
+  }
+  #home a,
+  #login i {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  #menu button {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+  }
+  #menu i {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+  }
+
+  .menu2 a {
+    margin: 15px 0;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+  }
+  .menu2 a i {
+    transition: all 0.3s;
+  }
+  .menu2 a:hover i {
+    color: black;
+    margin: 0 10px;
+  }
+  .menu2 span {
+    font-family: "Caveat", cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+  }
+  .menu2 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    left: -190px;
+    background-color: rgba(0, 0, 0, 0.525);
+    top: 82px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: all 0.4s;
+    opacity: 0;
+    margin-left: 245px;
+  }
+  .menu3 {
+    opacity: 1;
+    margin-left: -5px;
+  }
+}
+@media (max-width: 737px) {
+  footer {
+    margin-top: 1650px;
+    flex-direction: column;
+  }
+  #foot21 {
+    display: flex;
+    justify-content: center;
+  }
+  .foot211 {
+    margin-top: 40px;
+  }
+  .foot211 h4,
+  .foot211 {
+    font-size: 25px;
+  }
+  .foot211 p,
+  .foot211 span {
+    font-size: 15px;
+  }
+}
+
+.l1 {
+  background-color: black;
+}
+.l1 nav {
+  background-color: rgba(153, 153, 153, 0.525);
+}
+.l1 .sidebar {
+  background-color: rgba(153, 153, 153, 0.525);
+}
+.l1 .hot1 {
+  color: rgb(255, 255, 255);
+}
+
+.l1 .hot3:hover {
+  box-shadow: 0px 0px 15px white;
+}
+
+.l1 footer h4 {
+  color: rgb(255, 255, 255);
+}
+.l1 footer p {
+  color: rgb(255, 255, 255);
+}
+.l1 footer {
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.l1 #foot20 .gm {
+  color: rgb(255, 254, 254);
+}
+.light {
+  display: none;
+}
+
+.dark {
+  display: none;
+}
+
+.dark2 {
+  display: block;
+}
+.light2 {
+  display: block;
+}
